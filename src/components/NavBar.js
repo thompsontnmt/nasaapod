@@ -7,7 +7,7 @@ export default function NavBar() {
     return (
         <div className="navbar">
             <ul>
-                <Link className="link" to ="/nasa-apod">Return to Home</Link>
+                <Link className="link" to ="/">Return to Home</Link>
             </ul>
         </div>
     );

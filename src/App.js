@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
     <div className="app">
         <Routes>
-          <Route path="/nasa-apod" element={<Home />}></Route>
+          <Route path="/" element={<Home />}></Route>
           <Route path="/nasaphoto" element={<NasaPhoto />}></Route>
         </Routes>
     </div>
